@@ -42,7 +42,7 @@ public class Covid19Data implements  Comparable<Covid19Data>{
     
     @Override
     public String toString() {
-        return  "region= " + region +
+        return  " region= " + region +
                 ", aldersgruppe= " + aldersgruppe +
                 ", bekræftedeTilfældeIAlt= " + bekræftedeTilfældeIAlt +
                 ", døde= " + døde +

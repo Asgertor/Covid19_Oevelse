@@ -11,6 +11,7 @@ public class FileHandler {
     public ArrayList<Covid19Data> readFile() throws IOException {
         Scanner sc = new Scanner(new File("11_noegletal_pr_region_pr_aldersgruppe.csv"), StandardCharsets.ISO_8859_1);
         ArrayList<Covid19Data> covidDataList = new ArrayList<>();
+        
         while (sc.hasNext()) {
             String data = sc.nextLine();
             String[] attributes = data.split(";");
